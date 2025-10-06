@@ -1,0 +1,10 @@
+[project]
+name = "s3-vectors-multimodal-playground"
+version = "0.1.0"
+description = "Amazon S3 Vectors を使ったマルチモーダル検索の最小サンプルコード"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.40.44",
+    "python-dotenv>=1.1.1",
+]
